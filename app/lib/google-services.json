@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "14892728351",
+    "project_id": "movershub-df8cb",
+    "storage_bucket": "movershub-df8cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14892728351:android:0cd39b6627f0569b9a952a",
+        "android_client_info": {
+          "package_name": "com.HouseMovers.UserApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14892728351-5eadkh14qar14vjruc9igg9uusutonej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HouseMovers.UserApp",
+            "certificate_hash": "661625aad6d6b5afd214ff657beea446223cc78d"
+          }
+        },
+        {
+          "client_id": "14892728351-8jlejat42v0omevdhj6nof2nr444so4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvbeBSgdGkxTqkB_63UFRfs1z39EAzZaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14892728351-8jlejat42v0omevdhj6nof2nr444so4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

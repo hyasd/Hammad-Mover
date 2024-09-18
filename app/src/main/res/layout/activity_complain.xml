@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:id="@+id/learnClick"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:visibility="visible"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Complain"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/nunito_semibold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="@dimen/margin_small"
+            >
+            <ImageView
+                android:id="@+id/helpIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end"
+                android:visibility="visible"
+                android:src="@drawable/conversation"
+                android:tint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:layout_marginRight="@dimen/margin_small"
+                android:text="Enter Your Name"
+                android:fontFamily="@font/nunito_semibold"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+
+                />
+
+            <EditText
+                android:id="@+id/rollNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="@dimen/margin_small"
+                android:background="@drawable/edittext_shape_design"
+                android:drawablePadding="@dimen/margin_small"
+                android:hint="e.g abc"
+                android:inputType="textAutoCorrect"
+                android:padding="@dimen/margin_small"
+                android:paddingBottom="@dimen/margin_normal"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:text="Description"
+                android:fontFamily="@font/nunito_semibold"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/desicription"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:background="@drawable/edittext_shape_design"
+                android:gravity="start"
+                android:hint="Write Your Description Here"
+                android:inputType="text"
+                android:textSize="14sp"
+                android:padding="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_small"/>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/addi"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_normal"
+                />
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="Select Image"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/nunito_semibold"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/addProductBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button_design_"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_large"
+                android:text="Submit"
+                android:textColor="@color/colorYellow"
+                android:textSize="14sp"
+                android:fontFamily="@font/nunito_semibold"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

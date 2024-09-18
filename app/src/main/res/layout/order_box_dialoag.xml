@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/circle1"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_gravity="center" android:gravity="center"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo"
+        >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:tint="@color/colorPrimary"
+            android:src="@drawable/tick"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:textSize="12sp"
+            android:textColor="@color/colorYellow"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_marginLeft="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="@dimen/margin_small"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/colorPrimary"
+        android:text="Please Enter category Name"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/categoryName"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        style="@style/CustomEditText"
+        android:hint="e.g abc"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/colorPrimary"
+        android:text="Please Enter category Quantity"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/categoryQuantity"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        style="@style/CustomEditText"
+        android:hint="e.g 1"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:fontFamily="@font/nunito_semibold"
+        android:textColor="@color/colorPrimary"
+        android:text="Description"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext_shape_design"
+        android:id="@+id/categoryDescription"
+        android:gravity="start"
+        android:textSize="14sp"
+        android:padding="@dimen/margin_small"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:hint="Write category details"
+        android:inputType="text" />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:background="@drawable/rounded_button_design_"
+            android:backgroundTint="@color/colorYellow"
+            android:text="Cancel"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/submitOrder"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:background="@drawable/rounded_button_design_"
+            android:text="Submit"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logout"
+        android:tint="@color/colorPrimary"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoutText1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:fontFamily="@font/alegreya"
+        android:layout_marginTop="@dimen/margin_normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logoutText2"
+        android:textSize="16sp"
+        android:fontFamily="@font/alegreya"
+
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center" />
+
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/logoutButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/logout"
+        android:fontFamily="@font/alegreya"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/rounded_button_design"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_large"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87"
+        />
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/cancelButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/cancel"
+        android:fontFamily="@font/alegreya"
+        android:textColor="@color/colorYellow"
+        android:background="@drawable/rounded_button_design_"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_marginBottom="@dimen/margin_large"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87"
+
+        />
+</LinearLayout>
